@@ -1,0 +1,26 @@
+@import "fonts.scss";
+body {
+    font-family: Panton;
+    font-size: 50px;
+    
+    
+}
+span {
+    color: aqua;
+    background: no-repeat center/80% url("../img/cart.jpg");
+}
+.cart {
+    background: no-repeat center/80% url("../img/cart.jpg");
+}
+
+@media (max-width: 768px) {
+    span {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        background: red;
+    }
+}
